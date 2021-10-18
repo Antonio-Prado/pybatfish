@@ -40,7 +40,6 @@ import pybatfish  # noqa: F402
 # ones.
 extensions = [
     "nbsphinx",
-    "notfound.extension",
     "recommonmark",
     "sphinx.ext.autodoc",
     "sphinx.ext.doctest",
