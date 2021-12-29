@@ -32,7 +32,7 @@ import pybatfish
 here = path.abspath(path.dirname(__file__))
 
 # Capirca dependencies
-CAPIRCA_DEPS = ["capirca", "absl-py>=0.8.0"]
+CAPIRCA_DEPS = ["capirca", "absl-py>=0.8.0", "adafruit-circuitpython-lsm9ds0"]
 
 # Get the long description from the README file
 with open(path.join(here, "README.md"), encoding="utf-8") as f:
